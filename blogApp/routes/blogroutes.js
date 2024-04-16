@@ -4,7 +4,6 @@ const express = require("express");
 const router = express.Router();
 
 
-
 // ..1.. import controller 
 // in which along const is method of that file location 
 const {dummylink,likePost,unlikePost} = require("../controller/likecontroller");

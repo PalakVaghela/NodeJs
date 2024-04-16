@@ -6,7 +6,7 @@ const path = require('path');
 
 exports.localFileUpload = async (req, res) => {
     try {
-        const file = req.files.file;
+        const file = req.files.file; 
         console.log("We got a file : ", file);
 
         // path in server here __dirname show current dir + folder name in controller + give unique no that is date + using this only can see the file else content is not visible 

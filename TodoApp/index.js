@@ -25,7 +25,7 @@ app.use("/api/v1",todoRoutes);
 
 // start server
 app.listen(PORT, ()=>{
-    console.log(`Server started successfully at ${PORT}`);
+    console.log(`Server started successfully at ${PORT}`); 
 })
 
 // connected to the database and then call fun
